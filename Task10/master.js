@@ -80,15 +80,15 @@
 
 
 
-
-
-
-
-
-
-
-
-
+// function checkPalindrome(str) {
+//     let palind = str.split("");
+//     if (str === palind.reverse().join("")) {
+//         console.log(`the string ${str} is palindrome`);
+//     } else {
+//         console.log(`the string ${str} is not palindrome`);
+//     }
+// };
+// checkPalindrome("madam");
 
 
 // problem (7)
@@ -108,34 +108,28 @@
 // problem (8)
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+// checkUrl = function (url) {
+//     if (url.startsWith("ww.") && url.endsWith(".eraa")) {
+//         console.log(true);
+//     } else {
+//         console.log(false);
+//     }
+// };
+// checkUrl("ww.soad.eraa");
 
 
 
 // problem (9)
 
 
+// function removeO(str) {
+//     let x = str.replace(/o/gi, "");
+//     return x;
+
+// }
 
 
-
-
-
-
-
-
-
-
+// console.log(removeO("ErOaao"));
 
 
 
@@ -208,17 +202,15 @@
 // problem (3)
 
 
-
-
-
-
-
-
-
-
-
-
-
+// function find(x1, x2, x3, x4, x5) {
+//     let variables = [x1, x2, x3, x4, x5];
+//     for (let i = 0; i <= variables.length; i++){
+//         if (variables[i] === 0) {
+//             return i + 1
+//         }
+//     }
+// }
+// console.log(find(1, 2, 0, 4, 5));
 
 
 
@@ -247,25 +239,35 @@
 
 
 
+// function checkSum(num1, num2) {
+//     let sum = 0;
+//     for (let i = num1; i <= num2; i++){
+//         if (i % 2 == 1) {
+//             sum += i;
+//         }
+//     }
+//     console.log(sum);
+// }
 
-
-
-
-
+// checkSum(10, 30);
 
 
 
 // problem (6)
 
-
-
-
-
-
-
-
-
-
+// var num = +prompt("Enter num");
+// var numStr = num.toString();
+// function checkLuckyDay(num) {
+//     for (let i = 0; i <= num; i++) {
+//         if (numStr.includes(4) || numStr.includes(7)) {
+//             console.log("It's your lucky day");
+//             return;
+//         } else {
+//             console.log("“It's not your lucky day");
+//         }
+//     }
+// }
+// checkLuckyDay(num);
 
 
 
@@ -274,17 +276,16 @@
 
 
 
+// var num = +prompt("Enter num");
 
-
-
-
-
-
-
-
-
-
-
+// function divisors(num) {
+//     for (let i = 1; i <= num; i++)
+//     {
+//     if(num % i == 0)
+//     console.log(i);
+//     }
+// }
+// divisors(num);
 
 
 
@@ -320,14 +321,29 @@
 // problem (9)
 
 
+// function sumNumb(num) {
+//     let numbers = [];
+//     let sum = 0;
+//     let odd = 0;
+//     let even = 0;
 
+//     for (let i = 0; i < num; i++) {
+//         numbers.push(+prompt(`Insert ${num} numbers`))
+//         sum += numbers[i];
+//     }
+//     console.log(`the sum of number is ${sum}`);
+//     for (j = 0; j < numbers.length; j++){
+//         if (numbers[j] % 2 === 0) {
+//             even++
+//         } else {
+//             odd++
+//         }
+//     }
+//     console.log(`number if even numbers is ${even}`);
+//     console.log(`number if odd numbers is ${odd}`);
 
-
-
-
-
-
-
+//     }
+// sumNumb(5);
 
 
 
@@ -335,14 +351,19 @@
 // problem (10)
 
 
-
-
-
-
-
-
-
-
+// function game(rows) {
+//     let start = 1;
+//     for (let i = 0; i < rows; i++){
+//         let row = "";
+//         for (let k = 0; k < 3; k++){
+//             row += start + k + " ";
+//         }
+//         row += "pum";
+//         console.log(row);
+//         start += 4
+//     }
+// }
+// game(4);
 
 
 
@@ -403,7 +424,3 @@
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////77
 
 
-// Array
-
-
-// problem (1)
